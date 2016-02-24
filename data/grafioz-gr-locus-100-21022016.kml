@@ -6,11 +6,11 @@
   <Style id="undefined">
     <BalloonStyle>
       <text><![CDATA[
-  <div class="baloon $[status]"><ul class="balloon_style">
-    <li class="status"><span class="title">Статус</span>: <span class="value">$[status]</span></li>
-    <li class="planting_type"><span class="title">Тип зеленого насаждения</span>: <span class="value">$[planting_type]</span></li>
-    <li class="id"><span class="title">Идентификатор</span>: <span class="value">$[id]</span></li>
-    <li class="year"><span class="title">Год внесения</span>: <span class="value">$[year]</span></li>
+  <div><ul>
+    <li><u>Статус</u>: <em>$[status]</em></li>
+    <li><u>Тип зеленого насаждения</u>: <em>$[planting_type]</em></li>
+    <li><u>Идентификатор</u>: <em>$[id]</em></li>
+    <li><u>Год внесения</u>: <em>$[year]</em></li>
   </ul></div>
   ]]></text>
     </BalloonStyle>
@@ -29,11 +29,11 @@
   <Style id="uninjured">
     <BalloonStyle>
       <text><![CDATA[
-  <div class="baloon $[status]"><ul class="balloon_style">
-    <li class="status"><span class="title">Статус</span>: <span class="value">$[status]</span></li>
-    <li class="planting_type"><span class="title">Тип зеленого насаждения</span>: <span class="value">$[planting_type]</span></li>
-    <li class="id"><span class="title">Идентификатор</span>: <span class="value">$[id]</span></li>
-    <li class="year"><span class="title">Год внесения</span>: <span class="value">$[year]</span></li>
+  <div><ul>
+    <li><u>Статус</u>: <em>$[status]</em></li>
+    <li><u>Тип зеленого насаждения</u>: <em>$[planting_type]</em></li>
+    <li><u>Идентификатор</u>: <em>$[id]</em></li>
+    <li><u>Год внесения</u>: <em>$[year]</em></li>
   </ul></div>
   ]]></text>
     </BalloonStyle>
@@ -52,11 +52,11 @@
   <Style id="injured_emerging">
     <BalloonStyle>
       <text><![CDATA[
-  <div class="baloon $[status]"><ul class="balloon_style">
-    <li class="status"><span class="title">Статус</span>: <span class="value">$[status]</span></li>
-    <li class="planting_type"><span class="title">Тип зеленого насаждения</span>: <span class="value">$[planting_type]</span></li>
-    <li class="id"><span class="title">Идентификатор</span>: <span class="value">$[id]</span></li>
-    <li class="year"><span class="title">Год внесения</span>: <span class="value">$[year]</span></li>
+  <div><ul>
+    <li><u>Статус</u>: <em>$[status]</em></li>
+    <li><u>Тип зеленого насаждения</u>: <em>$[planting_type]</em></li>
+    <li><u>Идентификатор</u>: <em>$[id]</em></li>
+    <li><u>Год внесения</u>: <em>$[year]</em></li>
   </ul></div>
   ]]></text>
     </BalloonStyle>
@@ -75,11 +75,11 @@
   <Style id="injured_active">
     <BalloonStyle>
       <text><![CDATA[
-  <div class="baloon $[status]"><ul class="balloon_style">
-    <li class="status"><span class="title">Статус</span>: <span class="value">$[status]</span></li>
-    <li class="planting_type"><span class="title">Тип зеленого насаждения</span>: <span class="value">$[planting_type]</span></li>
-    <li class="id"><span class="title">Идентификатор</span>: <span class="value">$[id]</span></li>
-    <li class="year"><span class="title">Год внесения</span>: <span class="value">$[year]</span></li>
+  <div><ul>
+    <li><u>Статус</u>: <em>$[status]</em></li>
+    <li><u>Тип зеленого насаждения</u>: <em>$[planting_type]</em></li>
+    <li><u>Идентификатор</u>: <em>$[id]</em></li>
+    <li><u>Год внесения</u>: <em>$[year]</em></li>
   </ul></div>
   ]]></text>
     </BalloonStyle>
@@ -98,11 +98,11 @@
   <Style id="injured_damped">
     <BalloonStyle>
       <text><![CDATA[
-  <div class="baloon $[status]"><ul class="balloon_style">
-    <li class="status"><span class="title">Статус</span>: <span class="value">$[status]</span></li>
-    <li class="planting_type"><span class="title">Тип зеленого насаждения</span>: <span class="value">$[planting_type]</span></li>
-    <li class="id"><span class="title">Идентификатор</span>: <span class="value">$[id]</span></li>
-    <li class="year"><span class="title">Год внесения</span>: <span class="value">$[year]</span></li>
+  <div><ul>
+    <li><u>Статус</u>: <em>$[status]</em></li>
+    <li><u>Тип зеленого насаждения</u>: <em>$[planting_type]</em></li>
+    <li><u>Идентификатор</u>: <em>$[id]</em></li>
+    <li><u>Год внесения</u>: <em>$[year]</em></li>
   </ul></div>
   ]]></text>
     </BalloonStyle>
@@ -119,7 +119,7 @@
 
 <Folder>
   <!-- Полигоны -->
-  <description>Данные экспортированы и обработаны 6.02.2016 г.</description>
+  <description>Данные экспортированы и обработаны 2016-02-21</description>
   <Placemark> <name>1</name>
   <styleUrl> #uninjured</styleUrl>
   <description>без признаков поражения</description>
